@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding-bottom: 30px;
+}
+.container_title{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(125,125,125);
+    background: linear-gradient(90deg, rgba(125,125,125,0.9094012605042017) 0%, rgba(36, 36, 36, 0.736) 100%);
+}
+.container_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+.certificate_container{
+    max-width: 600px;
+    min-width: 300px;
+    display: flex;
+
+    padding: 20px;
+    background-color: white;
+    border: 1px rgb(58, 58, 58) solid;
+    border-radius: 20px;
+    box-shadow: none;
+}
+.certificate_link{
+    text-align: center;
+}
+.certificate_text{
+    font-size: 30px;
+}
+.certificate_img{
+    max-width: 550px;
+    min-width: 300px;
+}
